@@ -1,0 +1,39 @@
+#about {
+	background-color: rgb(255,222,255);
+	padding: 30px;
+	.container {
+		max-width: 1200px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		align-items: center;
+	}
+	img {
+		width: 100%;
+		margin-right: 100px;
+		border-radius: 15px;
+	}
+}
+
+.bio {
+	grid-column: 1 / 2;
+	font-family: Arial;
+	font-size: 18px;
+	background-color: white;
+	border-radius: 15px;
+	width: 65%;
+	padding: 40px;
+	margin: 30px;
+	color: rgb(120,120,120);
+	line-height: 1.75;
+	h1 {
+		margin-bottom: 15px;
+	}
+	p {
+		text-align: left;
+		span {
+			color: rgb(157,109,181);
+			font-weight: 550;
+		}
+	}
+}

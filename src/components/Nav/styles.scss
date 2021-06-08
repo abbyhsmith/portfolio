@@ -1,0 +1,40 @@
+nav {
+	display: grid;
+	align-items: center;
+	grid-template-columns: 2fr 5fr 4fr;
+	background-color: rgb(157,109,181);
+}
+
+.nameLink {
+	color: white;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 30px;
+	margin-left: 25px;
+	&:hover {
+		color: rgb(255,222,255);
+	}
+}
+
+ul {
+	display: flex;
+	grid-column: 3;
+}
+
+li {
+	list-style-type: none;
+	margin: 20px 30px;
+	a {
+		color: white;
+		text-decoration: none;
+		font-family: Arial;
+		font-size: 24px;
+		margin-right: 5px;
+		padding: 5px 5px;
+		&:hover {
+			border-bottom: 5px solid rgb(255,222,255);
+		}
+	}
+}
+
+
