@@ -2,7 +2,6 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	grid-template-columns: 3fr 5fr 4fr;
 	background-color: rgb(157,109,181);
 	width: 100%;
 	opacity: .8;
@@ -39,6 +38,20 @@ li {
 	}
 }
 
+.github {
+	margin-left: -30px;
+	&:hover {
+		border: 0px;
+	}
+}
+
+.githubIcon {
+	fill: white;
+	width: 24px;
+	&:hover {
+		fill: rgb(255,222,255);
+	}
+}
 
 .navScrolled {
 	position: fixed;
@@ -61,5 +74,9 @@ li {
 		a {
 			font-size: 18px;
 		}
+	}
+
+	.github {
+		margin-left: 0;
 	}
 }

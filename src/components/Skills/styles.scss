@@ -24,6 +24,7 @@
 	font-size: 18px;
 	&:hover {
 		transform: translateY(-10px);
+		transition-duration: .5s;
 	}
 }
 
