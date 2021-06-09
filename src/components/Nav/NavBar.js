@@ -1,9 +1,9 @@
 import React from 'react'
 import './styles.scss'
 
-const NavBar = (props) => {
+const NavBar = ({classnames}) => {
 	return (
-		<nav>
+		<nav className={classnames}>
 			<a className="nameLink" href="home">Abigail Smith</a>
 			<ul>
 				<li><a href="#about">About</a></li>

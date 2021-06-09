@@ -37,7 +37,7 @@ const Skills = (props) => {
 					JavaScript
 				</div>
 				<div className="iconDivs">
-					<div class="iconBg">
+					<div className="iconBg">
 						<SvgReactIcon />
 					</div>
 					<br />

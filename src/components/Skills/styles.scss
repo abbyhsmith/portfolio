@@ -43,3 +43,9 @@
 	margin: 0 auto;
 	fill: rgb(157,109,181);
 }
+
+@media only screen and (max-width: 800px) {
+	.iconDivs {
+		flex-basis: 35%;
+	}
+}

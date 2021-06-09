@@ -1,17 +1,20 @@
 #about {
 	background-color: rgb(255,222,255);
-	padding: 30px;
+	padding: 50px;
 	.container {
 		max-width: 1200px;
 		margin: 0 auto;
 		display: grid;
-		grid-template-columns: 2fr 1fr;
-		align-items: center;
+		grid-template-columns: 3fr 2fr;
+		grid-gap: 50px;
+		align-items: top;
+		justify-items: center;
 	}
 	img {
 		width: 100%;
-		margin-right: 100px;
+		margin: 30px;
 		border-radius: 15px;
+		position: center;
 	}
 }
 
@@ -21,7 +24,7 @@
 	font-size: 18px;
 	background-color: white;
 	border-radius: 15px;
-	width: 65%;
+	width: 100%;
 	padding: 40px;
 	margin: 30px;
 	color: rgb(120,120,120);
@@ -34,6 +37,46 @@
 		span {
 			color: rgb(157,109,181);
 			font-weight: 550;
+		}
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	#about {
+		padding: 30px;
+		.container {
+			grid-template-columns: 5fr 4fr;
+			grid-gap: 30px;
+		}
+		img {
+			margin: 0 auto;
+		}
+	}
+	
+	.bio {
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	#about {
+		padding: 0;
+		.container {
+			display: flex;
+		}
+	}
+	
+	img {
+		display: none;
+	}
+
+	.bio {
+		margin: 20px;
+		width: 100%;
+		padding: 20px;
+		line-height: 1.5;
+		h1 {
+			font-size: 24px;
 		}
 	}
 }

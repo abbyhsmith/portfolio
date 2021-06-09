@@ -1,8 +1,11 @@
 nav {
-	display: grid;
+	display: flex;
+	justify-content: space-between;
 	align-items: center;
-	grid-template-columns: 2fr 5fr 4fr;
+	grid-template-columns: 3fr 5fr 4fr;
 	background-color: rgb(157,109,181);
+	width: 100%;
+	opacity: .8;
 }
 
 .nameLink {
@@ -18,7 +21,6 @@ nav {
 
 ul {
 	display: flex;
-	grid-column: 3;
 }
 
 li {
@@ -38,3 +40,26 @@ li {
 }
 
 
+.navScrolled {
+	position: fixed;
+	top: 0;
+}
+
+@media only screen and (max-width: 800px) {
+	nav {
+		justify-content: space-around;
+	}
+	
+	.nameLink {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	li {
+		margin: 10px 10px;
+		a {
+			font-size: 18px;
+		}
+	}
+}
