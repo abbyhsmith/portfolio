@@ -26,6 +26,7 @@ nav {
 	background-color: rgb(157,109,181);
 	width: 100%;
 	opacity: .8;
+	z-index: 1;
 }
 
 .nameLink {
@@ -41,6 +42,7 @@ nav {
 
 ul {
 	display: flex;
+	align-items: center;
 }
 
 li {
@@ -89,7 +91,7 @@ li {
 	}
 
 	li {
-		margin: 10px 10px;
+		margin: 10px;
 	}
 
 	.github {
@@ -98,7 +100,12 @@ li {
 }
 
 @media only screen and (max-width: 600px) {
+	nav {
+		justify-content: center;
+	}
+	
 	li {
+		margin: 5px;
 		a {
 			font-size: 18px;
 		}
@@ -172,10 +179,9 @@ li {
 		.container {
 			display: flex;
 		}
-	}
-	
-	img {
-		display: none;
+		img {
+			display: none;
+		}
 	}
 
 	.bio {
@@ -250,6 +256,56 @@ li {
 	padding: 30px;
 	font-family: Arial;
 	color: rgb(100,100,100);
+}
+
+.projectContainer {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 35px auto;
+}
+
+.projectDiv {
+	width: 250px;
+	background-color: white;
+	transform: translate(0);
+	transition: transform 100ms linear;
+	a {
+		text-decoration: none;
+		color: rgb(100,100,100);
+	}
+	&:hover {
+		transform: translate(5px, -5px);
+		filter: drop-shadow(-15px 15px 15px rgba(1,1,1,.5));
+	}
+}
+
+.projectTitle {
+	padding: 10px 0;
+}
+
+@media only screen and (max-width: 875px) {
+	.projectDiv {
+		width: 30%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.projectContainer {
+		flex-direction: column;
+		align-items: center;
+		margin: 20px auto;
+	}
+
+	.projectDiv {
+		width: 50%;
+		margin: 15px auto;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.projectDiv {
+		width: 70%;
+	}
 }
 
 //contact section
