@@ -1,7 +1,6 @@
 import React from 'react'
-import './styles.scss'
-import SvgPhone from '../Svgs/SvgPhone.js'
-import SvgEmail from '../Svgs/SvgEmail.js'
+import SvgPhone from './Svgs/SvgPhone.js'
+import SvgEmail from './Svgs/SvgEmail.js'
 
 const Contact = () => {
 	return (

@@ -1,6 +1,5 @@
 import React from 'react'
-import SvgGithubIcon from '../Svgs/SvgGithubIcon'
-import './styles.scss'
+import SvgGithubIcon from './Svgs/SvgGithubIcon'
 
 const NavBar = ({classnames}) => {
 	return (
@@ -11,7 +10,7 @@ const NavBar = ({classnames}) => {
 				<li><a href="#skills">Skills</a></li>
 				<li><a href="#projects">Projects</a></li>
 				<li><a href="#contact">Contact</a></li>
-				<li><a className="github" href="https://github.com/abbyhsmith"><SvgGithubIcon /></a></li>
+				<li><a target="_blank" className="github" href="https://github.com/abbyhsmith"><SvgGithubIcon /></a></li>
 			</ul>
 		</nav>
 	)

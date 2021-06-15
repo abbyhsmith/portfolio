@@ -1,13 +1,12 @@
 import React from 'react'
-import './styles.scss'
-import SvgCssIcon from '../Svgs/SvgCssIcon.js'
-import SvgJsIcon from '../Svgs/SvgJsIcon.js'
-import SvgHtmlIcon from '../Svgs/SvgHtmlIcon.js'
-import SvgReactIcon from '../Svgs/SvgReactIcon.js'
-import SvgJavaIcon from '../Svgs/SvgJavaIcon.js'
-import SvgMySqlIcon from '../Svgs/SvgMySqlIcon.js'
-import SvgGitIcon from '../Svgs/SvgGitIcon.js'
-import SvgSassIcon from '../Svgs/SvgSassIcon.js'
+import SvgCssIcon from './Svgs/SvgCssIcon.js'
+import SvgJsIcon from './Svgs/SvgJsIcon.js'
+import SvgHtmlIcon from './Svgs/SvgHtmlIcon.js'
+import SvgReactIcon from './Svgs/SvgReactIcon.js'
+import SvgJavaIcon from './Svgs/SvgJavaIcon.js'
+import SvgMySqlIcon from './Svgs/SvgMySqlIcon.js'
+import SvgGitIcon from './Svgs/SvgGitIcon.js'
+import SvgSassIcon from './Svgs/SvgSassIcon.js'
 
 
 const Skills = (props) => {
