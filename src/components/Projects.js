@@ -10,19 +10,19 @@ const Projects = () => {
 			<div className="projectContainer">
 				<div className="projectDiv">
 					<a href="/animalfacts">
-						<img src={animalFactsPic} />
+						<img src={animalFactsPic} alt="Animal Facts App"/>
 						<div className="projectTitle">Animal Facts</div>
 					</a>
 				</div>
 				<div className="projectDiv">
 					<a href="/wow-enemy-finder">
-						<img src={wowEnemyPic} />
+						<img src={wowEnemyPic} alt="World of Warcraft Enemy Search App"/>
 						<div className="projectTitle">World of Warcraft Enemy Search</div>
 					</a>
 				</div>
 				<div className="projectDiv">
 					<a href="/grocery-list-maker">
-						<img src={groceryListPic} />
+						<img src={groceryListPic} alt="Grocery List Maker App" />
 						<div className="projectTitle">Grocery List Maker</div>
 					</a>
 				</div>
