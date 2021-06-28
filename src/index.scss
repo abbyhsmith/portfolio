@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+:root {
+	--dark-purple: rgb(157,109,181);
+	--light-pink: rgb(255,222,255);
+	--light-grey: rgb(250,250,250);
+	--grey: rgb(100,100,100);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 	text-align: center;
+	font-family: 'Varela Round', sans-serif;
+	color: var(--grey);
 }
 
 //page styles
@@ -27,7 +38,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: rgb(157,109,181);
+	background-color: var(--dark-purple);
 	width: 100%;
 	opacity: .8;
 	z-index: 1;
@@ -36,11 +47,10 @@ nav {
 .nameLink {
 	color: white;
 	text-decoration: none;
-	font-family: Arial;
 	font-size: 30px;
 	margin-left: 25px;
 	&:hover {
-		color: rgb(255,222,255);
+		color: var(--light-pink);
 	}
 }
 
@@ -55,12 +65,11 @@ li {
 	a {
 		color: white;
 		text-decoration: none;
-		font-family: Arial;
 		font-size: 24px;
 		margin-right: 5px;
 		padding: 5px 5px;
 		&:hover {
-			border-bottom: 5px solid rgb(255,222,255);
+			border-bottom: 5px solid var(--light-pink);
 		}
 	}
 }
@@ -76,7 +85,7 @@ li {
 	fill: white;
 	width: 24px;
 	&:hover {
-		fill: rgb(255,222,255);
+		fill: var(--light-pink);
 	}
 }
 
@@ -118,7 +127,7 @@ li {
 
 //about section
 #about {
-	background-color: rgb(255,222,255);
+	background-color: var(--light-pink);
 	.container {
 		padding: 50px;
 		max-width: 1200px;
@@ -139,7 +148,6 @@ li {
 
 .bio {
 	grid-column: 1 / 2;
-	font-family: Arial;
 	font-size: 18px;
 	background-color: white;
 	border-radius: 15px;
@@ -154,7 +162,7 @@ li {
 	p {
 		text-align: left;
 		span {
-			color: rgb(157,109,181);
+			color: var(--dark-purple);
 			font-weight: 550;
 		}
 	}
@@ -201,9 +209,7 @@ li {
 
 //skills section
 #skills {
-	background-color: rgb(250,250,250);
-	color: rgb(100,100,100);
-	font-family: Arial;
+	background-color: var(--light-grey);
 	padding: 30px;
 	h1 {
 		margin-bottom: 25px;
@@ -232,20 +238,20 @@ li {
 }
 
 .iconBg {
-	background-color: rgb(255,222,255);
+	background-color: var(--light-pink);
 	width:100px;
 	height: 100px;
 	margin: 0 auto;
 	border-radius: 50%;
 	display: flex;
 	align-items: center;
-	border: 2px solid rgb(157,109,181);
+	border: 2px solid var(--dark-purple);
 }
 
 .icons {
 	width: 60%;
 	margin: 0 auto;
-	fill: rgb(157,109,181);
+	fill: var(--dark-purple);
 }
 
 @media only screen and (max-width: 800px) {
@@ -256,10 +262,8 @@ li {
 
 //projects section
 #projects {
-	background-color: rgb(255,222,255);
+	background-color: var(--light-pink);
 	padding: 30px;
-	font-family: Arial;
-	color: rgb(100,100,100);
 }
 
 .projectContainer {
@@ -278,7 +282,6 @@ li {
 	}
 	a {
 		text-decoration: none;
-		color: rgb(100,100,100);
 	}
 	&:hover {
 		transform: translate(5px, -5px);
@@ -317,9 +320,7 @@ li {
 
 //contact section
 #contact {
-	background-color: rgb(250,250,250);
-	color: rgb(100,100,100);
-	font-family: Arial;
+	background-color: var(--light-grey);
 	padding: 30px;
 	.container {
 		max-width: 1200px;
@@ -350,14 +351,13 @@ li {
 .icon {
 	width: 20px;
 	margin: 0 5px;
-	fill: rgb(100,100,100);
+	fill: var(--grey);
 }
 
 //footer
 .foot {
-	background-color: rgb(157,109,181);
+	background-color: var(--dark-purple);
 	color: white;
-	font-family: Arial;
 	font-size: 18px;
 	padding: 20px;
 	opacity: .8;
