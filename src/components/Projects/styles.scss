@@ -1,0 +1,56 @@
+#projects {
+	background-color: var(--light-pink);
+	padding: 30px;
+}
+
+.projectContainer {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 35px auto;
+}
+
+.projectDiv {
+	width: 25%;
+	background-color: white;
+	transform: translate(0);
+	transition: transform 100ms linear;
+	img {
+		width: 100%;
+	}
+	a {
+		text-decoration: none;
+	}
+	&:hover {
+		transform: translate(5px, -5px);
+		filter: drop-shadow(-15px 15px 15px rgba(1,1,1,.5));
+	}
+}
+
+.projectTitle {
+	padding: 10px 0;
+}
+
+@media only screen and (max-width: 875px) {
+	.projectDiv {
+		width: 30%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.projectContainer {
+		flex-direction: column;
+		align-items: center;
+		margin: 20px auto;
+	}
+
+	.projectDiv {
+		width: 50%;
+		margin: 15px auto;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.projectDiv {
+		width: 70%;
+	}
+}

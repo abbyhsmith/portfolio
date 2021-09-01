@@ -1,11 +1,11 @@
-import NavBar from './components/NavBar.js'
-import About from './components/About.js'
-import Skills from './components/Skills.js'
-import Projects from './components/Projects.js'
-import Contact from './components/Contact.js'
-import Footer from './components/Footer.js'
 import React, {useState, useEffect} from 'react'
 import classNames from 'classnames'
+import NavBar from './components/NavBar/NavBar.jsx'
+import About from './components/About/About.jsx'
+import Skills from './components/Skills/Skills.jsx'
+import Projects from './components/Projects/Projects.jsx'
+import Contact from './components/Contact/Contact.jsx'
+import Footer from './components/Footer/Footer.jsx'
 
 function App() {
 	const [scrolled, setScrolled] = useState(false)

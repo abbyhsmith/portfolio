@@ -1,5 +1,6 @@
 import React from 'react'
-import SvgGithubIcon from './Svgs/SvgGithubIcon'
+import SvgGithubIcon from '../Svgs/SvgGithubIcon'
+import './styles.scss'
 
 const NavBar = ({classnames}) => {
 	return (

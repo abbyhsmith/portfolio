@@ -1,7 +1,8 @@
 import React from 'react'
-import animalFactsPic from '../images/animalfacts.png'
-import wowEnemyPic from '../images/wow.png'
-import groceryListPic from '../images/grocerylist.png'
+import animalFactsPic from '../../images/animalfacts.png'
+import airQualityPic from '../../images/airquality.png'
+import groceryListPic from '../../images/grocerylist.png'
+import './styles.scss'
 
 const Projects = () => {
 	return (
@@ -15,9 +16,9 @@ const Projects = () => {
 					</a>
 				</div>
 				<div className="projectDiv">
-					<a href="/wow-enemy-finder">
-						<img src={wowEnemyPic} alt="World of Warcraft Enemy Search App"/>
-						<div className="projectTitle">World of Warcraft Enemy Search</div>
+					<a href="/air-quality">
+						<img src={airQualityPic} alt="Air Quality Report App"/>
+						<div className="projectTitle">Air Quality Report</div>
 					</a>
 				</div>
 				<div className="projectDiv">

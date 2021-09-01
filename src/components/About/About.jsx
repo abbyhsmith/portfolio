@@ -1,5 +1,6 @@
 import React from 'react'
-import pic from '../images/me_and_cat.jpg'
+import pic from '../../images/me_and_cat.jpg'
+import './styles.scss'
 
 const About = (props) => {
 	return (
