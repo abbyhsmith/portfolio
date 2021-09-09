@@ -15,7 +15,6 @@ import './styles.scss'
 const Skills = (props) => {
 	return (
 		<div id="skills">
-			<h1>My Skills</h1>
 			<div className="container">
 				<div className="iconDivs">
 					<div className="iconBg">

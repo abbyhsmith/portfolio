@@ -1,17 +1,16 @@
 #about {
-	background-color: var(--light-pink);
 	.container {
-		padding: 50px;
+		padding: 20px;
 		max-width: 1200px;
 		margin: 0 auto;
 		display: grid;
 		grid-template-columns: 3fr 2fr;
-		grid-gap: 50px;
+		grid-gap: 30px;
 		align-items: top;
 		justify-items: center;
 	}
 	img {
-		width: 100%;
+		width: 350px;
 		margin: 30px;
 		border-radius: 15px;
 		position: center;
@@ -20,24 +19,20 @@
 
 .bio {
 	grid-column: 1 / 2;
-	font-size: 18px;
-	background-color: white;
-	border-radius: 15px;
 	width: 100%;
 	padding: 40px;
-	margin: 30px;
-	color: rgb(120,120,120);
 	line-height: 1.75;
 	h1 {
 		margin-bottom: 10px;
-		color: var(--dark-purple);
+		color: var(--coral);
 		font-size: 36px;
 	}
 	p {
 		text-align: left;
+		padding-left: 10px;
+		border-left: 3px solid var(--coral);
 		span {
-			color: var(--dark-purple);
-			font-weight: 550;
+			color: var(--coral);
 		}
 	}
 }

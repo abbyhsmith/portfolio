@@ -1,5 +1,5 @@
 #skills {
-	background-color: var(--light-grey);
+	background-color: #FFFFFF;
 	padding: 30px;
 	h1 {
 		margin-bottom: 25px;
@@ -19,7 +19,6 @@
 	flex-direction: column;
 	flex-basis: 20%;
 	margin: 20px 0;
-	font-size: 18px;
 	transform: translateY(0);
 	transition: transform 150ms ease-out;
 	&:hover {
@@ -28,20 +27,20 @@
 }
 
 .iconBg {
-	background-color: var(--light-pink);
+	background-color: var(--lighter-pink);
 	width:100px;
 	height: 100px;
 	margin: 0 auto;
 	border-radius: 50%;
 	display: flex;
 	align-items: center;
-	border: 2px solid var(--dark-purple);
+	border: 2px solid var(--hot-pink);
 }
 
 .icons {
 	width: 60%;
 	margin: 0 auto;
-	fill: var(--dark-purple);
+	fill: var(--hot-pink);
 }
 
 @media only screen and (max-width: 800px) {

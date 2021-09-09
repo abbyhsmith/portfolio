@@ -7,7 +7,6 @@ import './styles.scss'
 const Projects = () => {
 	return (
 		<div id="projects">
-			<h1>My Projects</h1>
 			<div className="projectContainer">
 				<div className="projectDiv">
 					<a href="/animalfacts">

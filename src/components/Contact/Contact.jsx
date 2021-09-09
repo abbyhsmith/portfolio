@@ -6,7 +6,6 @@ import './styles.scss'
 const Contact = () => {
 	return (
 		<div id="contact">
-			<h1>Contact Info</h1>
 			<div className="container">
 				<div className="contactInfo">
 					<SvgPhone />

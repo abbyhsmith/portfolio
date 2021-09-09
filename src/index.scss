@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@200;400&display=swap');
 
 :root {
-	--dark-purple: rgb(157,109,181);
-	--light-pink: rgb(255,222,255);
-	--light-grey: rgb(250,250,250);
-	--grey: rgb(150,150,150);
+	--hot-pink: #FF4AA5;
+	--coral: #FFB59A;
+	--lighter-pink: #FFCDE6;
 }
 
 * {
@@ -12,14 +11,15 @@
     padding: 0;
     box-sizing: border-box;
 	text-align: center;
-	font-family: 'Varela Round', sans-serif;
-	font-weight: lighter;
-	color: var(--grey);
+	font-family: 'Azeret Mono', sans-serif;
+	color: var(--hot-pink);
+	font-size: 14px;
 }
 
 //page styles
 html {
 	scroll-behavior: smooth;
+	scroll-padding-top: 69px;
 }
 
 img {
@@ -28,11 +28,11 @@ img {
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 24px;
 }
 
 .scrolled {
-	margin-top: 68px;
+	margin-top: 69px;
 }
 
 //small width

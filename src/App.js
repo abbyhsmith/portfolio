@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import classNames from 'classnames'
+import SectionTitles from '../src/components/SectionTitles/SectionTitles.jsx'
 import NavBar from './components/NavBar/NavBar.jsx'
 import About from './components/About/About.jsx'
 import Skills from './components/Skills/Skills.jsx'
@@ -38,8 +39,11 @@ function App() {
 		<div className={classes}>
 			<NavBar classnames={navClasses} />
 			<About />
+			<SectionTitles title="Skills" titleId='skillsTitle' />
 			<Skills />
+			<SectionTitles title="Projects" titleId='projectsTitle' />
 			<Projects />
+			<SectionTitles title="Contact" titleId='contactTitle' />
 			<Contact />
 			<Footer />
 		</div>

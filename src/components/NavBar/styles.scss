@@ -2,19 +2,20 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: var(--dark-purple);
+	background-color: var(--hot-pink);
 	width: 100%;
-	opacity: .8;
 	z-index: 1;
+	font-weight: 200;
 }
 
 .nameLink {
 	color: white;
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 26px;
 	margin-left: 25px;
 	&:hover {
-		color: var(--light-pink);
+		color: var(--coral);
+		cursor: default;
 	}
 }
 
@@ -29,11 +30,11 @@ li {
 	a {
 		color: white;
 		text-decoration: none;
-		font-size: 24px;
+		font-size: 20px;
 		margin-right: 5px;
 		padding: 5px 5px;
 		&:hover {
-			border-bottom: 5px solid var(--light-pink);
+			border-bottom: 3px solid var(--coral);
 		}
 	}
 }
@@ -49,13 +50,14 @@ li {
 	fill: white;
 	width: 24px;
 	&:hover {
-		fill: var(--light-pink);
+		fill: var(--coral);
 	}
 }
 
 .navScrolled {
 	position: fixed;
 	top: 0;
+	opacity: .8;
 }
 
 @media only screen and (max-width: 900px) {

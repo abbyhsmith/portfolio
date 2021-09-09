@@ -1,28 +1,28 @@
-#projects {
-	background-color: var(--light-pink);
-	padding: 30px;
-}
-
 .projectContainer {
 	display: flex;
 	justify-content: space-evenly;
 	margin: 35px auto;
+	padding: 30px;
+	max-width: 1200px;
 }
 
 .projectDiv {
-	width: 25%;
+	width: 250px;
 	background-color: white;
 	transform: translate(0);
 	transition: transform 100ms linear;
+	border: 3px dotted var(--lighter-pink);
+	border-radius: 15px;
 	img {
 		width: 100%;
+		border-radius: 15px 15px 0 0;
 	}
 	a {
 		text-decoration: none;
 	}
 	&:hover {
 		transform: translate(5px, -5px);
-		filter: drop-shadow(-15px 15px 15px rgba(1,1,1,.5));
+		filter: drop-shadow(-15px 15px 15px var(--lighter-pink));
 	}
 }
 
