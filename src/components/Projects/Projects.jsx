@@ -2,6 +2,7 @@ import React from 'react'
 import animalFactsPic from '../../images/animalfacts.png'
 import airQualityPic from '../../images/airquality.png'
 import groceryListPic from '../../images/grocerylist.png'
+import genshinPic from '../../images/genshin.png'
 import './styles.scss'
 
 const Projects = () => {
@@ -24,6 +25,12 @@ const Projects = () => {
 					<a href="/grocery-list-maker">
 						<img src={groceryListPic} alt="Grocery List Maker App" />
 						<div className="projectTitle">Grocery List Maker</div>
+					</a>
+				</div>
+				<div className='projectDiv'>
+					<a href='/genshin'>
+						<img src={genshinPic} alt='Genshin Banner Tracker' />
+						<div className='projectTitle'>Genshin Banner Tracker</div>
 					</a>
 				</div>
 			</div>

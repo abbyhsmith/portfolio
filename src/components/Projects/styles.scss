@@ -1,13 +1,14 @@
 .projectContainer {
 	display: flex;
-	justify-content: space-evenly;
+	flex-wrap: wrap;
 	margin: 35px auto;
+	gap: 20px;
 	padding: 30px;
-	max-width: 1200px;
+	max-width: 1000px;
 }
 
 .projectDiv {
-	width: 250px;
+	width: 300px;
 	background-color: white;
 	transform: translate(0);
 	transition: transform 100ms linear;
