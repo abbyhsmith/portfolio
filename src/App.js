@@ -37,7 +37,7 @@ function App() {
 
 	return (
 		<div className={classes}>
-			<NavBar className={navClasses} />
+			<NavBar classnames={navClasses} />
 			<About />
 			<SectionTitles title="Skills" titleId='skillsTitle' />
 			<Skills />
